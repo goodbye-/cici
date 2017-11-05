@@ -25,3 +25,21 @@ Pro Git (中文版) http://git.oschina.net/progit/1-%E8%B5%B7%E6%AD%A5.html#1.1-%E5
         空文件夹：git init git add git commit -m ""
 		git clone git://asdasdasd/.git  Your Folder Name
 		
+	2.2记录每次更新到仓库
+		git status 检查当前文件状态：未修改，修改未暂存（未跟踪文件---感觉一样的性质  checkout取消修改），暂存等待提交(restet head-从暂存区去掉)
+		git add 跟踪新文件，或者将修改的文件添加到暂存区
+		忽略文件 .gitignore   无需纳入 Git 的管理，也不希望它们总出现在未跟踪文件列表
+		git diff 具体的修改
+		git commit 提交更新  git commit -a -m '' -a可以跳过add操作，直接提交
+		git rm 移除文件，不再跟踪 --cached，文件还在工作目录中
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
